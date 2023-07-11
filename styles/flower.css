@@ -1,92 +1,199 @@
 /* header related styles */
-.header{
-    background-color: rgba(229,84,115, 0.10) ;
+.header {
+    background-color: rgba(229, 84, 115, 0.10);
 }
 
-.banner{
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+
 }
-.banner-title{
+
+.banner-title {
     font-size: 45px;
     font-weight: 800;
 
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 500px;
 }
-.banner-description{
+
+.banner-description {
     color: #757575;
-    
+
     font-size: 15px;
 
 }
-.btn-primary{
+
+.btn-primary {
     color: white;
     border-radius: 5px;
-    background: #E55473 ;
+    background: #E55473;
     padding: 10px 40px;
     border: 0;
     height: 43px;
 }
+
 /*about section style*/
-.about{
+.about {
     margin-top: 110px;
     margin-bottom: 110px;
-   
-   
+
+
 }
-.section-title{
+
+.section-title {
     color: #181818;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
-   
+
 }
-.section-description{
+
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 15px;
     margin: 15px 130px;
 }
-.about-info{
+
+.about-info {
     margin-left: 30px;
     text-align: center;
-   margin-bottom: 0;
-   padding-top: 30px;
-     width : 464px;
-     height: 605px;
-    border-radius:50% 50% 0  0 ;
+    margin-bottom: 0;
+    padding-top: 30px;
+    width: 464px;
+    height: 605px;
+    border-radius: 50% 50% 0 0;
 }
-.about-info-container{
-    
+
+.about-info-container {
+
     display: flex;
     justify-content: center;
-  
-  
+
+
 }
-.info-img{
-   margin-top: 177px;
+
+.info-img {
+    margin-top: 177px;
 }
-.info-img-grey{
+
+.info-img-grey {
     margin-top: 134px;
- }
-.about-info-pink{
+}
+
+.about-info-pink {
     text-align: center;
     background-color: #a721623c;
 }
-.about-info-sky{
+
+.about-info-sky {
     background-color: #0598a036;
 }
-.about-info-grey{
+
+.about-info-grey {
     background-color: #477d112d;
 }
-.about-info-name{
+
+.about-info-name {
     text-align: center;
     font-size: 24px;
     text-decoration: underline;
 }
+
+.text-pink {
+    color: #e55473;
+
+}
+.tex-primary{
+    color: #E55473;
+}
+
+
+nav{
+    background-color: rgba(229, 84, 115, 0.10);
+   display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+    
+
+}
+.nav-content {
+    text-align: center;
+    width:400px;
+   
+
+
+}
+
+.nav-title {
+    text-align: center;
+    display: block;
+    margin: 0;
+    font-size: 25px;
+    
+}
+
+
+.nav{
+    text-align: center;
+    display: block;
+    margin: 0;
+    margin-top: 20px;
+} 
+nav img{
+    width: 250px;
+    height: 350px;
+}
+.btn-primary{
+    background-color: #e55473;
+    margin-top: 20px ;
+}
+
+    
+    
+
+.section-title{
+    font-size: 25px;
+    font-weight:700 ;
+    margin-bottom: 5px;
+    
+    
+}
+.section-content{
+   margin-top:110px ;
+   margin-bottom:110px ;
+   display: flex;
+   flex-direction:column ;
+   justify-content: center;
+   align-items: center;
+
+
+}
+.the-deals{
+    width: 1390px;
+    background-image: url('../image/Rectangle\ 9.png');
+    height: 400px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 100px;
+
+    
+    
+}
+footer{
+    background-color: #181818;
+    height: auto;
+    width: 100vw;
+    font-family: "open sans";
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+
 
