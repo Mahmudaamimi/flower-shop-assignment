@@ -10,6 +10,11 @@
     justify-content: space-around;
     
 }
+.banner-title{
+    font-size: 45px;
+    font-weight: 800;
+
+}
 .banner .profile-pic{
     width: 500px;
 }
@@ -20,10 +25,12 @@
 
 }
 .btn-primary{
+    color: white;
     border-radius: 5px;
-    background:rgb(224, 169, 223) ;
+    background: #E55473 ;
     padding: 10px 40px;
     border: 0;
+    height: 43px;
 }
 /*about section style*/
 .about{
@@ -44,9 +51,42 @@
     text-align: center;
     font-size: 15px;
     margin: 15px 130px;
+}
+.about-info{
+    margin-left: 30px;
+    text-align: center;
+   margin-bottom: 0;
+   padding-top: 30px;
+     width : 464px;
+     height: 605px;
+    border-radius:50% 50% 0  0 ;
+}
+.about-info-container{
     
-    
-
+    display: flex;
+    justify-content: center;
+  
+  
+}
+.info-img{
+   margin-top: 177px;
+}
+.info-img-grey{
+    margin-top: 134px;
+ }
+.about-info-pink{
+    text-align: center;
+    background-color: #a721623c;
+}
+.about-info-sky{
+    background-color: #0598a036;
+}
+.about-info-grey{
+    background-color: #477d112d;
+}
+.about-info-name{
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
 }
 
-    
