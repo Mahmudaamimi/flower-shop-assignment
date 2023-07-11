@@ -1,0 +1,14 @@
+/* header related styles */
+.header{
+    background-color: rgba(229,84,115, 0.10) ;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    
+}
+.banner .profile-pic{
+    width: 500px;
+}
